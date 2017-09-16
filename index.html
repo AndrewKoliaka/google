@@ -1,12 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Google</title>
+    <link rel="stylesheet" href="assets/css/main.css">
 </head>
+
 <body>
-    
+    <div class="wrapper">
+        <header>
+            <nav>
+                <ul class="topMenu">
+                    <li class="topMenu__element"><a class="topMenu__link topMenu__link--gmail" href="#" title="Gmail">Gmail</a></li>
+                    <li class="topMenu__element"><a class="topMenu__link topMenu__link--images" href="#" title="Images">Images</a></li>
+                    <li class="topMenu__element"><a class="topMenu__link topMenu__link--apps" href="#" title="Google apps"></a></li>
+                    <li class="topMenu__element"><a class="topMenu__link topMenu__link--signIn" href="#" title="Sign in">Sign in</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="container">
+            <div class="logoBox">
+                <img class="logoBox__img" src="assets/images/logo.png" alt="Google" />
+                <div class="logoBox__country">Ukraine</div>
+            </div>
+            <div class="searchBox">
+                <div class="searchBox__inputWrapper">
+                    <input class="searchBox__input" type="text" maxlength="2048">
+                    <a class="searchBox__voice" href="#" title="voice recorder"></a>
+                </div>
+
+                <a class="searchBox__btn" href="#">Google Search</a>
+                <a class="searchBox__btn" href="#">I'm Feeling Lucky</a>
+            </div>
+
+            <div class="languages">
+                Google.com.ua offered in:
+                <a class="languages__link" href="#" title="ukrainian">українська</a>
+                <a class="languages__link" href="#" title="russian">русский</a>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <nav class="footerNav footerNav--left">
+            <ul class="footerNav__list">
+                <li class="footerNav__element"><a class="footerNav__link" href="#">Advertising</a></li>
+                <li class="footerNav__element"><a class="footerNav__link" href="#">Business</a></li>
+                <li class="footerNav__element"><a class="footerNav__link" href="#">About</a></li>
+            </ul>
+        </nav>
+        <nav class="footerNav footerNav--right">
+            <ul class="footerNav__list">
+                <li class="footerNav__element"><a class="footerNav__link" href="#">Privacy</a></li>
+                <li class="footerNav__element"><a class="footerNav__link" href="#">Terms</a></li>
+                <li class="footerNav__element"><a class="footerNav__link" href="#">Settings</a></li>
+                <li class="footerNav__element"><a class="footerNav__link" href="#">Use Google.com</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
+
 </html>

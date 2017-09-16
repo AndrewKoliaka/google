@@ -1,0 +1,32 @@
+@import '../libs/reset.css';
+
+@import 'base.less';
+@import 'blocks.less';
+
+// adaptive
+
+@media screen and (max-width: 1200px) {
+    .searchBox__inputWrapper {
+        width: 47.755102041%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 10px;
+    }
+
+    .footerNav__element {
+        margin-left: 10px;
+    }
+
+    .logoBox__country {
+        font-size: .9em;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .logoBox__country {
+        font-size: .7em;
+    }
+}

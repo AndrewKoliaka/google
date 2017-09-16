@@ -1,0 +1,146 @@
+.topMenu {
+    height: 30px;
+    float: right;
+    margin-right: 33px;
+    margin-top: 16px;
+    &__element {
+        margin-left: 16px;
+    }
+    &__link {
+        font-size: .8em;
+        line-height: 30px;
+        vertical-align: middle;
+        &--gmail,
+        &--images {
+            color: black;
+        }
+        &--apps {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            background-image: url('../images/apps_icon.png');
+            background-size: cover;
+        }
+        &--signIn {
+            background-color: #4285f4;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 3px;
+            font-weight: bold;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.logoBox {
+    position: relative;
+    top: 196px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 27.755102041%;
+    &__img {
+        width: 100%;
+        height: auto;
+    }
+    &__country {
+        position: absolute;
+        bottom: 2px;
+        right: 2px;
+        color: #4285f4;
+        font-size: 1em;
+    }
+}
+
+.searchBox {
+    margin-top: 221px;
+    &__inputWrapper {
+        display: table;
+        position: relative;
+        height: auto;
+        overflow: auto;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 10px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        margin-bottom: 40px;
+        border: thin solid #ebebeb;
+        box-shadow: 0px 1px 1px #c6c6c6;
+        transition: box-shadow .1s;
+
+        &:hover {
+            box-shadow: 1px 2px 5px lightgrey;
+        }
+    }
+    &__input {
+        float: left;
+        display: table-cell;
+        vertical-align: middle;
+        width: 85%;
+        border: none;
+        outline: none;
+        font-size: 1em;
+    }
+    &__voice {
+        float: right;
+        display: block;
+        width: 15px;
+        height: 1.2em;
+        margin-right: 3%;
+        background-image: url('../images/microphone.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    &__btn {
+        background-color: #f4f4f4;
+        padding: 11px 17px;
+        color: gray;
+        font-weight: bold;
+        font-size: .8em;
+        margin-left: 1px;
+        border: thin solid transparent;
+        border-radius: 3px;
+        &:hover {
+            color: black;
+            border: thin solid gray;
+            text-decoration: none;
+        }
+    }
+}
+
+.languages {
+    margin-top: 42px;
+    font-size: .8em;
+    &__link {
+        margin-left: 6px;
+        color: #1a0dab;
+    }
+}
+
+.footerNav {
+    line-height: 40px;
+    &__list {
+        display: flex;
+    }
+    &__element {
+        margin-left: 31px;
+        &:first-of-type {
+            margin-left: 0;
+        }
+    }
+    &__link {
+        font-size: .8em;
+        color: gray;
+    }
+    &--left {
+        float: left;
+        margin-left: 2.5%;
+    }
+    &--right {
+        float: right;
+        margin-right: 2.5%;
+    }
+}

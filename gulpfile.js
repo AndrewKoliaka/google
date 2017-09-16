@@ -11,7 +11,7 @@ gulp.task('connect', () => {
 
 gulp.task('less', () => {
   return gulp
-    .src('assets/less/*.less')
+    .src('assets/less/index.less')
     .pipe(concat('main.css'))
     .pipe(less())
     .pipe(autoprefixer({browsers: ['last 2 versions'], cascade: false}))
